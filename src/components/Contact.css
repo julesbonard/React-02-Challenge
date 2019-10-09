@@ -35,11 +35,18 @@
     height: 8px;
     margin-right: 6px;
 }
+.stats{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
 .Contact .status .status-online {
     background: #aed581;
+    margin-top: 6px;
 }
 
 .Contact .status .status-offline {
     background: #f4511e;
+    margin-top: 6px;
 }
